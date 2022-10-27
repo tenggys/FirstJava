@@ -3,7 +3,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RestoringTheExpression { //ДЗ №3. Восстановление выражения
+public class RestoringTheExpression {
+
     private static char[] textGlobal;
     private static List<Integer> signIndexesGlobal;
 
@@ -50,5 +51,7 @@ public class RestoringTheExpression { //ДЗ №3. Восстановление 
         if (a + b == c) {
             System.out.printf("%d + %d = %d\n", a, b, c);
         }
+
     }
+
 }
